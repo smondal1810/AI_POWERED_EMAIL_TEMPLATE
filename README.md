@@ -60,4 +60,28 @@ setx AI_API_KEY "dummy_key"
 AI call took 0 ms
 
 
+EmailAiApplication
+ ├── pom.xml
+ └── src
+     └── main
+         ├── java
+         │   └── com
+         │       └── Email
+         │           └── example
+         │               └── EmailAiApplication
+         │                   ├── EmailAiApplication.java
+         │                   ├── Controller
+         │                   │   └── EmailController.java
+         │                   ├── service
+         │                   │   └── EmailService.java
+         │                   ├── ai
+         │                   │   └── AiClient.java
+         │                   └── dto
+         │                       ├── EmailRequest.java
+         │                       └── EmailResponse.java
+         └── resources
+             └── application.properties
+
+
+
 
